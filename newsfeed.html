@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Newsfeed</title>
+  <link rel="stylesheet" href="newsfeed.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="layout">
+
+
+    <aside class="sidebar">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <nav>
+        <a href="#"><i class="fas fa-house"></i> Home</a>
+        <a href="#"><i class="fas fa-compass"></i> Explore</a>
+        <a href="#"><i class="fas fa-gear"></i> Settings</a>
+      </nav>
+      <a href="signup.html" class="logout-btn">
+        <i class="fas fa-sign-out-alt"></i> Log Out
+      </a>
+    </aside>
+
+  
+    <main class="feed">
+      <div class="feed-header">Home</div>
+
+      <div class="post">
+        <img src="newspics2.jpg" class="avatar" />
+        <div class="post-content">
+          <span class="username">Thea @yanyan</span>
+          <p>dili najud tawn drawing</p>
+          <img src="newspics.jpeg" class="post-photo" />
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-comment"></i>
+            <i class="fas fa-share"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="post">
+        <img src="newspics1.jpg" class="avatar" />
+        <div class="post-content">
+          <span class="username">Vienne @byeni</span>
+          <p>weak hero is peak!</p>
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-comment"></i>
+            <i class="fas fa-share"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <aside class="rightbar">
+      <div class="search-box">
+        <input type="text" placeholder="Search keebit" />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="trending">
+        <h3>Keep Tabs</h3>
+        <ul>
+          <li>
+            <span class="topic">#FinalsWeek</span>
+            <span class="info">12.7K posts</span>
+          </li>
+          <li>
+            <span class="topic">#KDrama</span>
+            <span class="info">Trending in PH</span>
+          </li>
+          <li>
+            <span class="topic">#TaylorSwift</span>
+            <span class="info">55.4K posts</span>
+          </li>
+          <li>
+            <span class="topic">#SuhoForPresident</span>
+            <span class="info">3,421 posts</span>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+</body>
+</html>

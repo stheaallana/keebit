@@ -81,6 +81,7 @@ button:hover {
   background-color: #d75a84;
 }
 
+
 .divider {
   text-align: center;
   margin: 20px;
@@ -138,6 +139,36 @@ label {
 
 input[type="checkbox"] {
   margin-right: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #8f193a;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:hover {
+  background-color: #d75a84;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #8f193a;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:hover {
+  background-color: #d75a84;
 }
 
 p {
